@@ -6,6 +6,7 @@ body{
 	background-color: rgb(250, 250, 250);
 	font-weight: lighter;
 	margin: 0 1rem;
+	text-align: center;
 }
 
 a {
@@ -44,14 +45,14 @@ p{
 
 .profile-image {
 	display: block;
-  width: 250px;
+  width: 375px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .p{
 	text-align: center;
-	width: 300px;
+	width: 375px;
 }
 
 
