@@ -24,8 +24,7 @@ p{
 
 /* css of header */
 .main-header {
-
-
+	padding-bottom: 1rem;
 }
 .main-header h1 {
 	text-align: center;
@@ -43,14 +42,62 @@ p{
 	font-weight: bolder;
 }
 
+img {
+	max-width: 100%;
+}
 .profile-image {
 	margin: auto;
-  max-width: 100%;
+	max-width: 70%;
 }
 
+.portfolio {
+	padding-top: 1rem;
+	background-color: white;
+}
 
+.portfolio h2 {
+	margin-bottom: 2rem;
+}
+.portfolio img {
+	max-width: 100%;
+}
 
+.portfolio li{
+	padding-bottom: 1rem;
+}
 
+.contact {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+.contact h5 {
+	font-weight: bold;
+}
+
+.info {
+	font-weight: bolder;
+	padding-left: 1rem;
+}
+
+.main-footer {
+border-top:1px solid rgb(204, 201, 201);
+ color: black; 
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.footer-nav a{
+	display: none;
+}
+
+.footer-nav-mobile {
+	font-weight: bolder;
+	color: black;
+  align-self: center;
+}
+
+@media(min-width:)
 
 
 
