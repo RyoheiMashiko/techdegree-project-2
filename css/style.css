@@ -13,11 +13,7 @@ a {
 	text-decoration: none;
 }
 .header-nav a:hover {
-	color: orange;
-	transition: 0.3s;
-}
-.footer-nav a:hover {
-	color: orange;
+	color: skyblue;
 	transition: 0.3s;
 }
 
@@ -71,6 +67,13 @@ p {
 	padding-bottom: 0.5rem;
 }
 
+.skills {
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+	background-color: white;
+	margin-bottom: 1rem;
+}
+
 .portfolio {
 	padding-top: 1rem;
 	background-color: white;
@@ -79,8 +82,8 @@ p {
 .portfolio h2 {
 	margin-bottom: 2rem;
 }
-.portfolio h4 {
-	color: orange;
+h4 {
+	color: skyblue;
 }
 .portfolio img {
 	max-width: 100%;
@@ -131,7 +134,7 @@ p {
 }
 
 .footer-nav-mobile:hover {
-	color: orange;
+	color: skyblue;
 	transition: 0.3s;
 }
 
@@ -174,6 +177,10 @@ p {
 		width: 40%;
 		padding-right: 1rem;
 		padding-bottom: 0;
+	}
+
+	.skills {
+		padding-bottom: 2.5rem;
 	}
 
 	.portfolio li {
@@ -231,6 +238,11 @@ p {
 		display: block;
 		font-weight: bolder;
 		color: black;
+	}
+
+	.footer-nav a:hover {
+		color: skyblue;
+		transition: 0.3s;
 	}
 }
 
